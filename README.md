@@ -1,13 +1,17 @@
-<!-- ================= HEADER ================= -->
-
-<h1 align="center">🚀 ML Mastery Journey</h1>
+<!-- ================= PREMIUM HEADER ================= -->
 
 <p align="center">
-  <b>From Beginner → FAANG-Level ML Engineer</b>
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:00FFAA,100:0066FF&height=220&section=header&text=ML%20Mastery%20Journey&fontSize=42&fontAlignY=35&animation=fadeIn&fontColor=ffffff" />
+</p>
+
+<h1 align="center">🚀 Machine Learning Mastery</h1>
+
+<p align="center">
+  <b>Python • Machine Learning • Data Structures • Deep Learning</b>
 </p>
 
 <p align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?size=22&duration=3000&color=00FFAA&center=true&vCenter=true&width=600&lines=Python+%7C+Machine+Learning+%7C+DSA;Building+Projects+Daily;Learning+in+Public+🚀;Future+ML+Engineer" />
+  <img src="https://readme-typing-svg.herokuapp.com?size=24&duration=3000&color=00FFAA&center=true&vCenter=true&width=750&lines=Building+ML+Projects+Daily;Learning+from+First+Principles;Preparing+for+Tech+Interviews;Future+Machine+Learning+Engineer" />
 </p>
 
 ---
@@ -15,69 +19,88 @@
 <!-- ================= BADGES ================= -->
 
 <p align="center">
-  <img src="https://img.shields.io/badge/Python-3.10+-blue?logo=python&logoColor=white"/>
-  <img src="https://img.shields.io/badge/Machine%20Learning-Learning-orange"/>
+  <img src="https://img.shields.io/badge/Python-3.10+-blue?logo=python"/>
+  <img src="https://img.shields.io/badge/Machine%20Learning-In%20Progress-orange"/>
+  <img src="https://img.shields.io/badge/Data%20Structures-Learning-red"/>
+  <img src="https://img.shields.io/badge/Deep%20Learning-Coming%20Soon-purple"/>
   <img src="https://img.shields.io/badge/Status-Active-brightgreen"/>
-  <img src="https://img.shields.io/badge/Focus-Consistency-red"/>
 </p>
 
 ---
 
-<!-- ================= ABOUT ================= -->
-
 ## 🧠 About This Repository
 
-This repository documents my **complete journey** of becoming a:
+This repository documents my **complete journey to becoming a Machine Learning Engineer**.
 
-> ⚡ **Machine Learning Engineer (FAANG-level mindset)**
+### 🔍 Focus Areas (SEO Optimized)
 
-I am focusing on:
-
-* Deep understanding (not surface learning)
-* Writing clean, production-level code
-* Solving real interview questions
-* Building real-world ML projects
+* Python Programming Fundamentals
+* Data Structures & Algorithms (DSA)
+* Machine Learning Concepts
+* Deep Learning (upcoming)
+* Real-world ML Projects
+* Technical Interview Preparation
 
 ---
 
-<!-- ================= ROADMAP ================= -->
+## ⚡ Why This Repository is Different
+
+* 🔥 First-principles learning
+* 📌 Structured day-wise roadmap
+* 💻 Clean, production-level code
+* 🎯 Interview-focused content
+* 📈 Continuous progress tracking
+
+---
 
 ## 📚 Learning Roadmap
 
-### 🐍 Python Mastery
+### 🐍 Phase 1 — Python
 
 * Variables ✅
 * Data Types 🔜
 * Type Conversion 🔜
 * Data Structures 🔜
 * Functions 🔜
+* OOP 🔜
 
-### 📊 Libraries
+### 📊 Phase 2 — Libraries
 
 * NumPy 🔜
 * Pandas 🔜
 * Matplotlib 🔜
 
-### 🤖 Machine Learning
+### 🤖 Phase 3 — Machine Learning
 
 * Linear Regression 🔜
 * Logistic Regression 🔜
 * Decision Trees 🔜
 * Random Forest 🔜
+* SVM 🔜
+* KNN 🔜
+
+### 🚀 Phase 4 — Projects
+
+* End-to-End ML Pipeline
+* Real Dataset Analysis
+* Model Deployment
 
 ---
 
-<!-- ================= STRUCTURE ================= -->
-
-## 📂 Folder Structure
+## 📂 Project Structure
 
 ```bash
 ml-mastery-python/
+│
+├── README.md
 │
 ├── Day-01-Python-Basics/
 │   ├── part-1-variables/
 │   ├── part-2-data-types/
 │   └── part-3-type-conversion/
+│
+├── Day-02-Data-Structures/
+├── Day-03-Functions/
 │
 ├── numpy/
 ├── pandas/
@@ -87,24 +110,31 @@ ml-mastery-python/
 
 ---
 
-<!-- ================= RUN ================= -->
+## ⚙️ Getting Started
 
-## ⚙️ How to Run
+### 🔹 Clone Repository
 
 ```bash
 git clone https://github.com/vaibhavv1207/ml-mastery-python.git
 cd ml-mastery-python
 ```
 
-Run Python files:
+### 🔹 Run Example
 
 ```bash
-python filename.py
+python Day-01-Python-Basics/part-1-variables/variables.py
 ```
 
 ---
 
-<!-- ================= PROGRESS ================= -->
+## 📌 What You’ll Find Here
+
+* 📖 Concept Notes
+* 💻 Code Implementations
+* 🎯 Interview Questions
+* 📊 Real-world Practice
+
+---
 
 ## 📈 Progress Tracker
 
@@ -116,36 +146,31 @@ python filename.py
 
 ---
 
-<!-- ================= STATS ================= -->
-
-## 📊 GitHub Stats
+## 📊 GitHub Analytics
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=vaibhavv1207&show_icons=true&theme=tokyonight"/>
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=vaibhavv1207&theme=tokyonight"/>
+  <img src="https://github-readme-stats.vercel.app/api?username=vaibhavv1207&show_icons=true&theme=tokyonight&hide_border=true"/>
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=vaibhavv1207&theme=tokyonight&hide_border=true"/>
 </p>
 
 ---
 
-<!-- ================= GOALS ================= -->
-
 ## 🎯 Goals
 
-* 📌 Master Python deeply
-* 📌 Build ML projects from scratch
-* 📌 Crack top tech interviews
-* 📌 Become ML Engineer 🚀
+* 🔥 Master Python deeply
+* 🔥 Build strong ML fundamentals
+* 🔥 Solve interview-level problems
+* 🔥 Build real-world ML projects
+* 🔥 Become Machine Learning Engineer
 
 ---
-
-<!-- ================= AUTHOR ================= -->
 
 ## 👨‍💻 Author
 
 **Vaibhav**
 
-* 💡 Learning in public
-* 🔥 Building daily discipline
+* 🚀 Learning in public
+* 💡 Focused on fundamentals
 * 🎯 Target: ML Engineer
 
 ---
@@ -153,5 +178,9 @@ python filename.py
 <!-- ================= FOOTER ================= -->
 
 <p align="center">
-  ⭐ If you like this journey, consider starring the repo!
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0066FF,100:00FFAA&height=120&section=footer"/>
+</p>
+
+<p align="center">
+  ⭐ Star this repo to follow the journey
 </p>
