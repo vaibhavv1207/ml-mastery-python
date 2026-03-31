@@ -1,118 +1,156 @@
-# ============================================================
-# 📅 DAY 01 — PYTHON BASICS
-# 📌 PART 1 — VARIABLES
-# 🎯 ML Mastery — Zero to FAANG-Level ML Engineer
-# ============================================================
-
----
-
-# 📖 CONCEPT EXPLANATION
+# 📖 Day 01 — Python Basics | Part 1: Variables
 
 ---
 
 ## 🔹 What is a Variable?
 
-A variable in Python is a **name (reference/label)** bound to an object in memory.
+A variable in Python is a **name (reference)** bound to an object in memory.
+It is NOT a container — it's a **label/tag**.
 
-> ⚠️ IMPORTANT: A variable is NOT a box that holds a value.
-> It is a **sticky note / tag** attached to an object in memory.
+---
 
-### How it works internally:
+## 🔹 First Principles (Important)
 
 ```python
 x = 10
+```
 
-Step-by-step what happens in memory:
-Step 1 → Python creates an integer object 10 in memory
-Step 2 → That object gets a memory address (e.g., 140732856543408)
-Step 3 → The name 'x' is just a LABEL pointing to that address
+What happens internally:
 
-Visual:
+1. Python creates an integer object `10` in memory
+2. That object has a memory address
+3. `x` is just a label pointing to that object
 
-    Variable Name          Memory (RAM)
-    ┌─────┐               ┌──────────────┐
-    │  x  │ ───────────►  │  int obj: 10 │
-    └─────┘               │  id: 14073.. │
-                           └──────────────┘
+---
 
-                    
+## 🏠 Real-World Analogy
 
-🔹 Real-World Analogy
-Think of it like this:
+* Object → House 🏠
+* Variable → Name plate 🏷️
 
-🏠 HOUSE     = The actual object (10) sitting in memory
-🏷️ NAME PLATE = The variable name (x) — just a tag on the house
+```python
+x = 10
+y = x
+```
 
-You can put MULTIPLE name plates on the SAME house:
+Both `x` and `y` point to the SAME object.
 
-    x = 10
-    y = x    → both x and y are plates on the SAME house
+---
 
-You can MOVE a name plate to a different house:
+## 🔬 Proof using `id()`
 
-    x = 20   → x plate moves to house "20"
-               y plate still on house "10"
+```python
+x = 10
+y = x
 
+print(id(x))
+print(id(y))   # same → same object
+```
 
-🔹 Proof — Variables are References
+---
 
+## 🧠 Variables are References (NOT Copies)
+
+```python
 a = [1, 2, 3]
-b = a                # b points to the SAME list object
-
-print(id(a))         # e.g., 140234567890
-print(id(b))         # e.g., 140234567890  ← SAME!
-print(a is b)        # True — same object
+b = a
 
 b.append(4)
-print(a)             # [1, 2, 3, 4] — a is also changed!
+print(a)   # [1,2,3,4]
+```
 
-Why? Because b = a does NOT copy. It makes b point to the same object.
+Because both point to SAME object.
 
-    ┌─────┐
-    │  a  │ ──────┐
-    └─────┘       │     ┌──────────────────┐
-                  ├──►  │ list: [1, 2, 3]  │
-    ┌─────┐       │     └──────────────────┘
-    │  b  │ ──────┘
-    └─────┘
+---
 
-🔹 Reassignment — What Really Happens
+## 🔹 Dynamic Typing
 
-x = 10     # x points to object 10
-x = 20     # x NOW points to object 20 (new object created)
-           # object 10 still exists if something else points to it
-           # if nothing points to it → garbage collector removes it
+```python
+x = 10
+x = "hello"
+x = [1,2]
+```
 
-BEFORE:
-    x ──────► int(10)
+✔ Variable has NO type
+✔ Object has type
 
-AFTER x = 20:
-    x ──────► int(20)     ← x moved to new object
-              int(10)     ← orphaned → garbage collected
+---
 
+## 🔹 Integer Interning (-5 to 256)
 
-🔹 Dynamic Typing
-Python is dynamically typed — variables DON'T have types, OBJECTS do.
+```python
+a = 256; b = 256
+print(a is b)   # True
 
-x = 10          # x points to int object
-x = "hello"     # x now points to str object — NO ERROR
-x = [1, 2, 3]   # x now points to list object — NO ERROR
-x = True        # x now points to bool object — NO ERROR
+a = 257; b = 257
+print(a is b)   # False
+```
 
-Compare with C/Java (statically typed):
+---
 
-int x = 10;
-x = "hello";    // ERROR! x is locked to int type
+## 🔹 Multiple Assignment
 
-e
-🔑 KEY INSIGHT: In Python, the OBJECT has a type. The VARIABLE is just a name tag.
+```python
+x, y, z = 1, 2, 3
+a = b = c = 0
+x, y = y, x
+```
 
+---
 
-🔹 Variable Naming Rules
-#	Rule	✅ Valid	❌ Invalid
-1	Must start with letter or _	name, _count	1name, @val
-2	Can contain letters, digits, _	val_2, my_var	my-var, my var
-3	Case sensitive	Name ≠ name ≠ NAME	—
-4	Cannot be a Python keyword	my_class	class, for, if
-5	No spaces allowed	first_name	first name
-6	No special characters	count_1	count@1, val#2
+## 🔹 Naming Rules
+
+| Rule                | Valid     | Invalid   |
+| ------------------- | --------- | --------- |
+| Start with letter/_ | name      | 1name     |
+| No spaces           | user_name | user name |
+| Not keyword         | my_var    | class     |
+
+---
+
+## 🔹 `is` vs `==`
+
+```python
+a = [1,2]
+b = [1,2]
+
+print(a == b)  # True
+print(a is b)  # False
+```
+
+---
+
+## 🔹 `del` Statement
+
+```python
+x = 10
+del x
+```
+
+Removes variable binding (not object directly)
+
+---
+
+## ⚡ Cheatsheet
+
+```python
+type(x)
+id(x)
+x is y
+x == y
+del x
+```
+
+---
+
+## ⚠️ Common Traps
+
+* `b = a` → NOT copy
+* `is ≠ ==`
+* Integer cache (-5 to 256)
+* No real constants
+* Variables are references
+
+---
+
+## ✅ Part 1 Complete
