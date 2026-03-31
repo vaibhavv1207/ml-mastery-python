@@ -1,69 +1,157 @@
-# 🧠 ML Mastery — Python to Machine Learning
+<!-- ================= HEADER ================= -->
 
-> From Python Zero to FAANG-Level ML Engineer
+<h1 align="center">🚀 ML Mastery Journey</h1>
 
-[![Python](https://img.shields.io/badge/Python-3.10+-blue?logo=python&logoColor=white)](https://python.org)
-[![ML](https://img.shields.io/badge/Machine%20Learning-In%20Progress-orange)]()
-[![Status](https://img.shields.io/badge/Status-Active-brightgreen)]()
-[![License](https://img.shields.io/badge/License-MIT-yellow)](LICENSE)
+<p align="center">
+  <b>From Beginner → FAANG-Level ML Engineer</b>
+</p>
 
----
-
-## 🎯 Goal
-
-Master Python + Machine Learning with:
-- Deep fundamentals (not surface-level)
-- Real interview questions (FAANG-level)
-- Hands-on code implementations
-- Daily structured learning (1 hour/day)
+<p align="center">
+  <img src="https://readme-typing-svg.herokuapp.com?size=22&duration=3000&color=00FFAA&center=true&vCenter=true&width=600&lines=Python+%7C+Machine+Learning+%7C+DSA;Building+Projects+Daily;Learning+in+Public+🚀;Future+ML+Engineer" />
+</p>
 
 ---
 
-## 📚 Curriculum
+<!-- ================= BADGES ================= -->
 
-### 🐍 Phase 1 — Python Mastery
-
-| Day | Topic | Status |
-|-----|-------|--------|
-| 01 | Python Basics (Variables, Data Types, Type Conversion) | ✅ In Progress |
-| 02 | Data Structures (Lists, Tuples, Sets, Dicts) | 🔜 |
-| 03 | Functions & Scope | 🔜 |
-| 04 | OOP in Python | 🔜 |
-| 05 | File Handling & Exception Handling | 🔜 |
-| 06 | Iterators, Generators, Decorators | 🔜 |
-| 07 | List Comprehensions & Lambda | 🔜 |
-
-### 📊 Phase 2 — Data Science Libraries
-
-| Day | Topic | Status |
-|-----|-------|--------|
-| 08 | NumPy Fundamentals | 🔜 |
-| 09 | NumPy Advanced | 🔜 |
-| 10 | Pandas Fundamentals | 🔜 |
-| 11 | Pandas Advanced | 🔜 |
-| 12 | Matplotlib & Seaborn | 🔜 |
-
-### 🤖 Phase 3 — Machine Learning
-
-| Day | Topic | Status |
-|-----|-------|--------|
-| 13 | ML Fundamentals & Math | 🔜 |
-| 14 | Linear Regression | 🔜 |
-| 15 | Logistic Regression | 🔜 |
-| 16 | Decision Trees & Random Forest | 🔜 |
-| 17 | SVM & KNN | 🔜 |
-| 18 | Clustering (K-Means) | 🔜 |
-| 19 | Dimensionality Reduction (PCA) | 🔜 |
-| 20 | Model Evaluation & Tuning | 🔜 |
-
-### 🚀 Phase 4 — Projects
-
-| # | Project | Status |
-|---|---------|--------|
-| 1 | End-to-End ML Pipeline | 🔜 |
-| 2 | Real-World Dataset Analysis | 🔜 |
-| 3 | ML Model Deployment | 🔜 |
+<p align="center">
+  <img src="https://img.shields.io/badge/Python-3.10+-blue?logo=python&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Machine%20Learning-Learning-orange"/>
+  <img src="https://img.shields.io/badge/Status-Active-brightgreen"/>
+  <img src="https://img.shields.io/badge/Focus-Consistency-red"/>
+</p>
 
 ---
+
+<!-- ================= ABOUT ================= -->
+
+## 🧠 About This Repository
+
+This repository documents my **complete journey** of becoming a:
+
+> ⚡ **Machine Learning Engineer (FAANG-level mindset)**
+
+I am focusing on:
+
+* Deep understanding (not surface learning)
+* Writing clean, production-level code
+* Solving real interview questions
+* Building real-world ML projects
+
+---
+
+<!-- ================= ROADMAP ================= -->
+
+## 📚 Learning Roadmap
+
+### 🐍 Python Mastery
+
+* Variables ✅
+* Data Types 🔜
+* Type Conversion 🔜
+* Data Structures 🔜
+* Functions 🔜
+
+### 📊 Libraries
+
+* NumPy 🔜
+* Pandas 🔜
+* Matplotlib 🔜
+
+### 🤖 Machine Learning
+
+* Linear Regression 🔜
+* Logistic Regression 🔜
+* Decision Trees 🔜
+* Random Forest 🔜
+
+---
+
+<!-- ================= STRUCTURE ================= -->
 
 ## 📂 Folder Structure
+
+```bash
+ml-mastery-python/
+│
+├── Day-01-Python-Basics/
+│   ├── part-1-variables/
+│   ├── part-2-data-types/
+│   └── part-3-type-conversion/
+│
+├── numpy/
+├── pandas/
+├── ml-models/
+└── projects/
+```
+
+---
+
+<!-- ================= RUN ================= -->
+
+## ⚙️ How to Run
+
+```bash
+git clone https://github.com/vaibhavv1207/ml-mastery-python.git
+cd ml-mastery-python
+```
+
+Run Python files:
+
+```bash
+python filename.py
+```
+
+---
+
+<!-- ================= PROGRESS ================= -->
+
+## 📈 Progress Tracker
+
+| Day | Topic      | Status      |
+| --- | ---------- | ----------- |
+| 01  | Variables  | ✅ Completed |
+| 02  | Data Types | 🔜          |
+| 03  | Functions  | 🔜          |
+
+---
+
+<!-- ================= STATS ================= -->
+
+## 📊 GitHub Stats
+
+<p align="center">
+  <img src="https://github-readme-stats.vercel.app/api?username=vaibhavv1207&show_icons=true&theme=tokyonight"/>
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=vaibhavv1207&theme=tokyonight"/>
+</p>
+
+---
+
+<!-- ================= GOALS ================= -->
+
+## 🎯 Goals
+
+* 📌 Master Python deeply
+* 📌 Build ML projects from scratch
+* 📌 Crack top tech interviews
+* 📌 Become ML Engineer 🚀
+
+---
+
+<!-- ================= AUTHOR ================= -->
+
+## 👨‍💻 Author
+
+**Vaibhav**
+
+* 💡 Learning in public
+* 🔥 Building daily discipline
+* 🎯 Target: ML Engineer
+
+---
+
+<!-- ================= FOOTER ================= -->
+
+<p align="center">
+  ⭐ If you like this journey, consider starring the repo!
+</p>
